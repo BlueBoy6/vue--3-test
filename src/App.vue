@@ -4,12 +4,11 @@
       <input />
       <button>submit</button>
     </div>
-    <ListTodos />
   </div>
 </template>
 
 <script>
-import ListTodos from './components/ListTodo.component.vue';
+import ListTodos from './components/ListTodo.vue';
 
 export default {
   name: 'App',
